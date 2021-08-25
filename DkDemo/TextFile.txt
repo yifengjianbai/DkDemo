@@ -1,0 +1,3 @@
+﻿docker build -t myapp .
+docker tag dkdemo:v1 yifengjianbai/dkdemo:v1
+docker run -d --name webapi -p 8020:82 yifengjianbai/dkdemo
